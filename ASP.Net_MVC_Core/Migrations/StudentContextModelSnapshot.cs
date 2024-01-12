@@ -205,7 +205,7 @@ namespace ASP.Net_MVC_Core.Migrations
 
                     b.HasKey("id");
 
-                    b.ToTable("Subject");
+                    b.ToTable("D_SUBJECT");
                 });
 
             modelBuilder.Entity("ASP.Net_MVC_Core.Models.Student", b =>
